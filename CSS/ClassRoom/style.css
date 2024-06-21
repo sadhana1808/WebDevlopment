@@ -1,0 +1,655 @@
+/* PRACTICE SET 3 */
+/* Question 1 */
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+/* Question -2 */
+
+* {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+
+#navbar {
+  height: 60px;
+  background-color: #0f1111;
+}
+
+button {
+  background-color: #f08804;
+}
+
+#logo {
+  color: #f08804;
+  font-size: 25px;
+}
+
+a {
+  margin-right: 200px;
+  text-decoration: none;
+}
+
+/* DISPLAY PROPERTY */
+div {
+  background-color: pink;
+  display: inline;
+}
+button {
+  display: block;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+  display: inline;
+}
+
+#box2 {
+  display: none;
+}
+
+/* visivility */
+#box2 {
+  visibility: hidden;
+}
+
+/* ------------------------------ALPHA CHANNE---------------------------------------------- */
+/* opacity(0 to 1) */
+/* div {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  padding: 25px;
+  display: inline-block;
+}
+#box1 {
+  background-color: rgba(0, 0, 255, 0.45);
+}
+
+#box2 {
+  background-color: rgba(0, 0, 255, 0.75);
+}
+
+#box3 {
+  background-color: rgba(0, 0, 255, 1);
+} */
+
+/* ---------------------Practice Set -4------------------------- */
+/* Question -1 */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  height: 60px;
+  color: white;
+  background-color: #0f1111;
+}
+
+button {
+  background-color: #f08804;
+  color: white;
+}
+
+input {
+  margin-left: 200px;
+}
+
+#logo {
+  color: #f08804;
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+a {
+  margin-right: 200px;
+  color: white;
+  text-decoration: none;
+}
+
+.contentBox {
+  height: 100px;
+  width: 100px;
+}
+
+/* Question -2  */
+
+/* * {
+  padding: 0;
+  margin: 0;
+}
+
+#navbar {
+  height: 60px;
+  color: white;
+  background-color: #0f1111;
+}
+
+button {
+  background-color: #f08804;
+  color: white;
+}
+
+input {
+  margin-left: 200px;
+}
+
+#logo {
+  color: #f08804;
+  font-size: 25px;
+  margin-left: 2px;
+}
+
+a {
+  margin-right: 200px;
+  color: white;
+  text-decoration: none;
+}
+
+.contentBox {
+  height: 100px;
+  width: 100px;
+  border: 2px solid black;
+  display: inline-block;
+  text-align: center;
+}
+
+#content {
+  height: 650px;
+}
+
+footer {
+  background-color: #0f1111;
+  color: white;
+  text-align: center;
+} */
+
+/* -------------------UNITS IN CSS----------------------------*/
+
+/* percentage */
+#box1 {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+}
+
+#box2 {
+  height: 50px;
+  width: 30%;
+  background-color: yellow;
+  margin-left: 10%;
+}
+
+/* em (multiple of parant size)*/
+#box1 {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+  font-size: 10px;
+}
+
+#box2 {
+  height: 50px;
+  width: 30%;
+  background-color: yellow;
+  margin-left: 10%;
+  font-size: 2em;
+  /* Two times of parent's font size */
+  font-size: 1em;
+  width: 5em;
+}
+
+/*---- Rem(RootEm) ----*/
+
+#box1 {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+  font-size: 10px;
+}
+
+#box2 {
+  height: 50px;
+  width: 30%;
+  background-color: yellow;
+  margin-left: 10%;
+  font-size: 2em;
+  width: 5rem;
+}
+
+/* Others   vh= viewport height, vw=viewport width */
+
+#box1 {
+  height: 100px;
+  width: 200px;
+  background-color: green;
+  font-size: 10px;
+}
+
+#box2 {
+  height: 50px;
+  width: 30%;
+  background-color: yellow;
+  margin-left: 10%;
+  font-size: 2em;
+  width: 5rem;
+  height: 100vh;
+}
+
+/* ------------------Position: static/relative/absolute/fixed------------------------- */
+/* static */
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#box1 {
+  position: static;
+}
+
+#box2 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+#box3 {
+  position: sticky;
+  top: 0px;
+  left: 20px;
+}
+
+#box4 {
+  position: fixed;
+  top: 0px;
+}
+
+/* --------------------Z-INDEX, background image, background size,background repeat----------------- */
+
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#box1 {
+  background-image: url("swamp_dear.jpg");
+  background-size: auto;
+}
+
+#box1 {
+  position: static;
+}
+
+#box2 {
+  position: relative;
+  top: 20px;
+  left: 10px;
+  z-index: 1;
+}
+
+#box3 {
+  position: absolute;
+  top: 500px;
+  left: 20px;
+}
+
+#box4 {
+  position: fixed;
+  top: 50px;
+  z-index: -3;
+}
+
+/* Practice set 5 */
+div {
+  height: 100px;
+  width: 100px;
+  background-image: url("nature.jpg");
+  background-size: cover;
+  color: white;
+  position: fixed;
+  right: 0px;
+  top: 50px;
+}
+
+/* FLEXBOX */
+
+/* body {
+  text-align: center;
+}
+
+div {
+  height: 100px;
+  width: 50px;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#container {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  align-content: flex-start;
+}
+
+#box1 {
+  background-color: aqua;
+  flex-grow: 1;
+}
+
+#box2 {
+  background-color: pink;
+  height: 200px;
+  flex-grow: 1;
+}
+
+#box3 {
+  background-color: darkgoldenrod;
+  height: 75px;
+}
+
+#box4 {
+  background-color: indianred;
+}
+
+#box5 {
+  background-color: slateblue;
+} */
+
+/* PRACTICE SET 6 */
+/* QUESTION-1 */
+/* div {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  color: black;
+  background-color: aqua;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+.navbar {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+li {
+  list-style-type: none;
+} */
+
+/* Question -2 */
+
+/* .navbar {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+
+.outer {
+  height: 400px;
+  width: 400px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 100px;
+  width: 100px;
+  background-color: darkorchid;
+} */
+
+/* Question-3 */
+
+/* .navbar {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+li {
+  list-style-type: none;
+}
+
+.outer {
+  height: 400px;
+  width: 400px;
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner {
+  height: 100px;
+  width: 100px;
+  background-color: darkorchid;
+  align-self: flex-start;
+} */
+
+/* Media Query */
+/* div {
+  height: 50px;
+  width: 50px;
+  background-color: pink;
+}
+
+@media (width: 600px) {
+  div {
+    background-color: red;
+  }
+}
+
+@media (max-width: 600px) {
+  div {
+    background-color: green;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 300px) {
+  div {
+    background-color: blue;
+  }
+} */
+
+/* Practice set 7 */
+
+/* div {
+  height: 200px;
+  width: 200px;
+  background-color: chocolate;
+}
+
+@media (max-width: 300px) {
+  div {
+    background-color: green;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  div {
+    background-color: pink;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+  div {
+    background-color: red;
+  }
+}
+
+@media (min-width: 600px) {
+  div {
+    background-color: blue;
+  }
+} */
+
+/*---------------------------- Transition Shorthand (transition: property name,duration,timing-function,delay)---------------------*/
+
+/* div {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 1s;
+  transition: all 2s ease-in 1s;
+}
+
+div:hover {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+}
+
+div:active {
+  background-color: pink;
+} */
+
+/* -------------------------------------CSS Transform-------------------------------------------------- */
+
+/* div {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  transform: rotate(90deg);
+  rotate: x 180deg;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  transform: scalex(2);
+  transition: 2s ease-in;
+}
+
+div:hover {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  transform: rotate(180deg);
+  transform: translate(200px, 80px);
+  transform: skew(45deg);
+}
+
+div:active {
+  background-color: pink;
+} */
+
+/* -----------------------------Animation Shorthand:name,duration,timimgfunction,delay,iterationcount,direction-------------------------- */
+/* div {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  border: 2px solid black;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  animation-name: colorAnimate;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation: colorAnimate 4Ss ease-in 1s infinite normal;
+}
+
+@keyframes colorAnimate {
+  from {
+    left: 0px;
+    background-color: yellow;
+  }
+  to {
+    left: 200px;
+    background-color: red;
+    color: white;
+  }
+}
+
+@keyframes colorAnimate {
+  0% {
+    left: 0px;
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    left: 200px;
+    background-color: red;
+    color: white;
+  }
+}
+div:hover {
+} */
+
+/* ---------------------------------------PracticeSet - 8------------------------------------ */
+.loader {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 20px solid blue;
+  border-bottom: 20px solid black;
+  background-color: pink;
+  animation: spinAnimate 1s ease-in-out 0s infinite normal;
+}
+
+@keyframes spinAnimate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

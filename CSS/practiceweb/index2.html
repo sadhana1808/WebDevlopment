@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company HR Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Company HR Portal</h1>
+      <nav>
+        <ul>
+          <li class="navitem">
+            <a href="#employee-registration">Employee Registration</a>
+          </li>
+          <li class="navitem">
+            <a href="#employee-directory">Employee Directory</a>
+          </li>
+          <li class="navitem"><a href="#contact-us">Contact-Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <image src="job.png" style="width: 100%"></image>
+
+    <section id="empioyee-registration" class="registerform">
+      <h2>Employee Registration</h2>
+      <p>Fill the below form to register as <em>employee.</em></p>
+      <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" /><br /><br />
+        <label for="email">Email id: </label>
+        <input type="email" id="email" /><br /><br />
+        <label for="passwprd">Password: </label>
+        <input type="password" id="password" /><br /><br />
+        <label for="age">Age: </label>
+        <input type="number" id="age" /><br /><br />
+        <label for="role">Select role: </label>
+        <select>
+          <option>Software Engineer</option>
+          <option>Frontand Engineer</option>
+          <option>Backend Engineer</option>
+          <option>Mechanical Engineer</option>
+          <option>Electrical Engineer</option>
+          <option>Junior Engineer</option></select
+        ><br /><br />
+        <label for="joiningdate">Select Joining date:</label>
+        <input type="date" id="joiningdate" /><br /><br />
+        <input type="submit" />
+      </form>
+    </section>
+
+    <section id="employee-directory" class="employeedirectory">
+      <h2>Employee Directory</h2>
+      <p>List of all regsterd employees.</p>
+      <table>
+        <tr>
+          <th>Employee ID</th>
+          <th>Employee Name</th>
+          <th>Employee Role</th>
+        </tr>
+        <tr>
+          <td>234</td>
+          <td>Roxy Gupta</td>
+          <td>Software Engineer</td>
+        </tr>
+        <tr>
+          <td>238</td>
+          <td>Naina Agrawal</td>
+          <td>Mechanical Engineer</td>
+        </tr>
+        <tr>
+          <td>236</td>
+          <td>Jai Dexit</td>
+          <td>Electrical Engineer</td>
+        </tr>
+        <tr>
+          <td>235</td>
+          <td>Vishal Rai</td>
+          <td>Junior Engineer</td>
+        </tr>
+        <tr>
+          <td>239</td>
+          <td>Sachin Yadav</td>
+          <td>Frontand Engineer</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <p>
+        You can contact us at company@official.com or visit us between 9AM -6PM.
+      </p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15079.453898165802!2d72.859434162933!3d19.11364436357708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c92c93bc44cd%3A0xeff202ff76f4438f!2sAitess%20Networks%20Private%20Limited!5e0!3m2!1sen!2sin!4v1702790210287!5m2!1sen!2sin"
+        width="400"
+        height="300"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <footer>
+      <p>&copy; 2023Company Name</p>
+    </footer>
+  </body>
+</html>

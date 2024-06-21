@@ -1,0 +1,75 @@
+/* ------------------------------------==--Text Properties--==--------------------------------------- */
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+#one {
+  font-family: Arial;
+}
+#two {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* UNITS PROPERTIES IN CSS */
+#one {
+  font-size: 25px;
+}
+
+#two {
+  font-size: 10px;
+}
+
+#three {
+  font-size: 60px;
+}
+
+/* LINE HIGHT Properties */
+
+/* #one {
+  font-size: 25px;
+  line-height: 50px;
+}
+
+#two {
+  font-size: 25px;
+  line-height: 2px;
+} */
+
+/* TEXT-TRANSFORM */
+#one {
+  font-size: 25px;
+  line-height: 50px;
+  text-transform: uppercase;
+}
+
+#two {
+  font-size: 25px;
+  line-height: 25 px;
+  text-transform: lowercase;
+}
+
+/* PRACTICE SET 2 */
+/* Question 1 */
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+/* Question 2 */
+
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
+#outer {
+  font-size: 25px;
+}
+
+#inner {
+  font-size: 10px;
+}
